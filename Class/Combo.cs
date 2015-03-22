@@ -47,12 +47,13 @@ namespace LoLCombo.Class
                 {
                     if (replace.IgnoreCase)
                     {
-                        _replaceDic[Char.ToUpper(replace.Key[0])] = replace.Value[0];
-                        _replaceDic[Char.ToLower(replace.Key[0])] = replace.Value[0];
+                        _replaceDic[replace.Key[0]] = replace.Value[0];
                     }
                     else
                     {
-                        _replaceDic[replace.Key[0]] = replace.Value[0];
+                        _replaceDic[Char.ToUpper(replace.Key[0])] = replace.Value[0];
+                        _replaceDic[Char.ToLower(replace.Key[0])] = replace.Value[0];
+                        
                     }
                 }
                 catch

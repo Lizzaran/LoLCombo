@@ -2,8 +2,8 @@
 
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Collector>
-		<PageFrom>1000</PageFrom>
-		<PageTo>2000</PageTo>
+		<PageFrom>1</PageFrom>
+		<PageTo>100</PageTo>
 		<Region>Europe West</Region>
 		<AddPassword>true</AddPassword>
 		<FilterSpecialCharacters>true</FilterSpecialCharacters>
